@@ -1,0 +1,272 @@
+@media (max-width: 1200px) {
+  header {
+    width: 970px;
+  }
+  .banner {
+    padding: 30px 40px;
+    width: 970px;
+  }
+  .banner-image {
+    width: 670px;
+  }
+  #support {
+    width: 970px;
+  }
+  .cards {
+    width: 970px;
+    padding: 5px 5px;
+  }
+  #start-box {
+    width: 970px;
+  }
+  .text {
+    width: auto;
+  }
+
+  .go-down div {
+    bottom: 18px;
+  }
+  #article {
+    width: 970px;
+  }
+  .definition {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 970px;
+    padding: 0 20px;
+  }
+  .definition .text1 {
+    width: 100%;
+  }
+  .definition .text1 p {
+    width: auto;
+  }
+  .item,
+  .row1 {
+    border: none;
+  }
+  .items {
+    padding: 18px 0px 20px 50px;
+  }
+}
+@media (max-width: 990px) {
+  #show-more-menu ul {
+    left: -10px;
+    top: 30px;
+  }
+  header {
+    width: auto;
+    padding: 7px 10px;
+  }
+  .header-ul li:last-child {
+    display: none;
+  }
+  .logo {
+    margin: 0;
+  }
+  .banner {
+    margin-bottom: 0;
+    width: 95%;
+    text-align: center;
+  }
+  .banner-button {
+    margin: 0 0 50px 0;
+  }
+  .support-header {
+    width: calc(100% - 120px);
+    margin: auto;
+  }
+  #support {
+    width: auto;
+  }
+  .support-body {
+    flex-direction: column;
+    margin: auto;
+    width: calc(100% - 120px);
+  }
+  .support-more-part {
+    width: 100%;
+  }
+  .support-more {
+    width: 100%;
+  }
+  .banner-image {
+    display: none;
+  }
+  .cards {
+    flex-direction: column;
+    width: 95%;
+    margin-top: 0;
+    padding: 5px 5px;
+  }
+  #start-box {
+    margin: 0 36px;
+    width: calc(100% - 72px);
+    padding: 0px;
+  }
+
+  .card-text {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .text {
+    text-align: right;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .text h3,
+  h4 {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  }
+  #card2 {
+    flex-direction: column-reverse;
+  }
+  .go-down div {
+    bottom: -2px;
+  }
+  .go-down img {
+    bottom: 48px;
+  }
+  #article {
+    width: auto;
+  }
+  .definition {
+    width: auto;
+  }
+  .items {
+    width: auto;
+  }
+  .row1,
+  .row2 {
+    width: auto;
+    gap: 15px;
+  }
+  .item {
+    width: auto;
+    padding: 0px;
+  }
+  .item p {
+    width: auto;
+    padding: 0;
+  }
+}
+@media (max-width: 640px) {
+    .support-more {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+  .hamburger-icon {
+    display: inline-block;
+    width: fit-content;
+  }
+
+  .header-ul {
+    display: none;
+  }
+  .cards {
+    width: 95%;
+    padding-top: 70px;
+  }
+  .card-image {
+    display: none;
+  }
+  #start-box {
+    width: auto;
+    padding: 0px;
+  }
+  .card-text {
+    position: relative;
+    bottom: 50px;
+    width: 95%;
+    padding: 0;
+  }
+  .text {
+    width: fit-content;
+  }
+  .text p {
+    width: 100%;
+  }
+  .text h3,
+
+  .card-buttons {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .definition {
+    text-align: center;
+    margin-top: 90px;
+  }
+  .definition h3 {
+    font-size: 1.6rem;
+  }
+  .items {
+    width: 100%;
+    padding: 50px 0;
+  }
+  #start-box {
+    margin: 0 12px;
+    width: calc(100% - 24px);
+  }
+  .row1,
+  .row2 {
+    width: 100%;
+    gap: 15px;
+  }
+  .item {
+    width: 100%;
+    padding: 0;
+  }
+  .item p {
+    width: 100%;
+    padding: 0;
+  }
+  .support-more-part,h4{
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .support-header {
+    background: #fff;
+flex-wrap: wrap;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    column-gap: 20px;
+  }
+  #support-req {
+    background: rgb(240, 229, 238);
+    border-radius: 25px;
+    padding: 10px;
+  }
+ 
+  .support-social {
+    margin: auto;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:450px) {
+    .row1,
+    .row2 {
+      flex-direction: column;
+      gap: 15px;
+    }
+    #card4 .card-buttons{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .support-header {
+        width: 100%;
+        margin:30px auto 30px auto;
+
+      }
+      .support-body{
+        width: 100%;
+      }
+}
